@@ -1,0 +1,11 @@
+{
+    "name": "jforc/parrainnage",
+    "description": "Parrainage",
+    "authors": [
+        {
+            "name": "iamSangohan",
+            "email": "mensahluc81@gmail.com"
+        }
+    ],
+    "require": {}
+}
