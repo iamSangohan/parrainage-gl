@@ -1,0 +1,78 @@
+/* espacement */
+
+.container{
+  margin-top: 20px;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+}
+
+thead th:nth-child(1) {
+  width: 50%;
+}
+
+thead th:nth-child(2) {
+  width: 50%;
+}
+
+th, td {
+  padding: 20px;
+}
+
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tbody tr:hover {
+  background-color: #47df9f;
+  transform: scale(1.02);
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.overlay{
+  text-align: center;
+  overflow: auto;
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.popup{
+  justify-content: center;
+  margin: 200px auto;
+  color: black;
+  background-color: rgb(228, 228, 228);
+  width: 30%;
+  border-radius: 3px;
+  padding: 1em; 
+}
+
+.btnClose{
+  cursor: pointer;
+  color: red;
+}
+
+.btnPopup {
+  cursor: pointer;
+}
