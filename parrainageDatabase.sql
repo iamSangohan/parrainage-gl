@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : mar. 30 nov. 2021 à 14:05
+-- Généré le : jeu. 02 déc. 2021 à 14:25
 -- Version du serveur : 5.7.36
 -- Version de PHP : 7.4.26
 
@@ -20,50 +20,6 @@ SET time_zone = "+00:00";
 --
 -- Base de données : `parrainageDatabase`
 --
-
--- --------------------------------------------------------
-
---
--- Structure de la table `filleul`
---
-
-DROP TABLE IF EXISTS `filleul`;
-CREATE TABLE IF NOT EXISTS `filleul` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `nomFilleul` varchar(150) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=26 DEFAULT CHARSET=latin1;
-
---
--- Déchargement des données de la table `filleul`
---
-
-INSERT INTO `filleul` (`id`, `nomFilleul`) VALUES
-(1, 'Abe Adou Jean-loic Aurel'),
-(2, 'Amani Kone Konan Yann'),
-(3, 'Assi Diamba Hapya Flavius'),
-(4, 'Bamba Aboubacar Kader'),
-(5, 'Coulibaly Nagninpara Hippolyte'),
-(6, 'Coulibaly Gombele Ahmed'),
-(7, 'Diabate Nansegnougou Raissa'),
-(8, 'Djaha Kouadjo Yves Martial'),
-(9, 'Fofana Aboubacar Cyrille'),
-(10, 'Kante Aichat'),
-(11, 'Kegba Bodio Thierry Mathurin'),
-(12, 'Keita Mariam'),
-(13, 'Kone Ariel Christian Dany'),
-(14, 'Kra Koffi Emmanuel'),
-(15, 'Ouattara Bafetegue'),
-(16, 'Ouattara Thiguissiet Aime Yohan'),
-(17, 'Sanogo Tidiane'),
-(18, 'Sehi Manhan David Gnomblehi'),
-(19, 'Silue Douyeri Aboulaye'),
-(20, 'Soro Watantcha Prosper'),
-(21, 'Thea Guy Roger'),
-(22, 'Yankine Aicha'),
-(23, 'Yao Kouame Geoffroy Arnaud'),
-(24, 'Yapi Monguet Christ Nemrod'),
-(25, 'Yeo Fanigue Adama');
 
 -- --------------------------------------------------------
 
@@ -97,7 +53,7 @@ INSERT INTO `parrain` (`idParrain`, `nomParrain`, `numeroParrain`, `idFilleul`) 
 (11, 'Konan Eliud Nicanor', '0506683423', 20),
 (12, 'Konan Kouame Aime Fabrice', '0747431748', 14),
 (13, 'Konate Dotemin', '0556765524', 3),
-(14, 'Kone Kignon Abdel', '0101945085', 17),
+(14, 'Kone Kignon Abdel', '0101945085', 26),
 (15, 'Kone Donigue', '0788989214', 8),
 (16, 'Kone Tokafolo', '0748340383', 15),
 (17, 'Kouadio Kouassi Hyacinthe', '0758743425', 23),
